@@ -1,0 +1,22 @@
+      body {
+            background: grey;
+      }
+
+      #after_submit{
+        visibility: hidden;
+      }
+
+      h1{
+      	text-align: center;
+      }
+
+      #quiz{
+      	text-align: center;
+      }
+      #container{
+      	text-align: center;
+      }
+
+      #show-number{
+      	text-align: center;
+      }

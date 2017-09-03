@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Seinfeld Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+  <h1>The Seinfeld Trivia Game</h1>
+  <div id="container"><button id="start">Start</button></div>
+  <div id="show-number"></div>
+    <form id="quiz" name = quiz>
+    <p>1.) What did Kramer's license plate say?</p>
+    <input id="q1" type="radio" name=question1 value="A">A. Assman
+    <input id="q1" type="radio" name=question1 value="B">B. Azzman
+    <input id="q1" type="radio" name=question1 value="C">C. A55man
+    <input id="q1" type="radio" name=question1 value="D">D. Bob
+    <br><br>
+    <p>2.) What did Elaine introduce Puddy as when meeting Joe Mayo?</p>
+    <input id="q2" type="radio" name=question2 value="A">A. Dr. Seuss
+    <input id="q2" type="radio" name=question2 value="B">B. Dr. Zais
+    <input id="q1" type="radio" name=question2 value="C">C. Dr. Sayuss
+    <input id="q1" type="radio" name=question2 value="D">D. Dr. Zayus
+    <br><br>
+    <p>3.) What kind of food did Kramer offer George that "reinvigorated," him?</p>
+    <input id="q3" type="radio" name=question3 value="A">A. Macadamia Nut
+    <input id="q3" type="radio" name=question3 value="B">B. Mackinaw Peach
+    <input id="q3" type="radio" name=question3 value="C">C. Peach
+    <input id="q3" type="radio" name=question3 value="D">D. Mango
+    <br><br>
+    <p>4.) How did Jerry describe Kramer's face when he was smoking?</p>
+    <input id="q4" type="radio" name=question4 value="A">A. A Raisin
+    <input id="q4" type="radio" name=question4 value="B">B. A Catcher's Mitt
+    <input id="q4" type="radio" name=question4 value="C">C. A Cracked Sidwalk
+    <input id="q4" type="radio" name=question4 value="D">D. An Old Bag
+    <br><br>
+    <p>5.) Why was there a robot in George's office?</p>
+    <input id="q5" type="radio" name=question5 value="A">A. George wanted a robot butler
+    <input id="q5" type="radio" name=question5 value="B">B. It was a gift from Bob Sacamano
+    <input id="q5" type="radio" name=question5 value="C">C. He built it from when he was abstinent
+    <input id="q5" type="radio" name=question5 value="D">D. Someone called in a bomb threat
+    <br><br>
+    <p>6.) How long did Jerry go without vomitting?</p>
+    <input id="q6" type="radio" name=question6 value="A">A. 10 years
+    <input id="q6" type="radio" name=question6 value="B">B. 26 years
+    <input id="q6" type="radio" name=question6 value="C">C. 14 years
+    <input id="q6" type="radio" name=question6 value="D">D. 17 years
+    <br><br>
+    <p>7.) What is the easiest way to get inside Elaine's vault?</p>
+    <input id="q7" type="radio" name=question7 value="A">A. Hitting the dial
+    <input id="q7" type="radio" name=question7 value="B">B. With schnapps
+    <input id="q7" type="radio" name=question7 value="C">C. With lobster bisque
+    <input id="q7" type="radio" name=question7 value="D">D. A hairpin
+    <br><br>
+    <p>8.) What did the mechanic claim the candy bar he ate was?</p>
+    <input id="q8" type="radio" name=question8 value="A">A. 5th Avenue
+    <input id="q8" type="radio" name=question8 value="B">B. 100 Thousand Bar
+    <input id="q8" type="radio" name=question8 value="C">C. Nougat
+    <input id="q8" type="radio" name=question8 value="D">D. Hershey
+    <br><br>
+    <p>9.) What did George eat for dessert with a knife and fork?</p>
+    <input id="q9" type="radio" name=question9 value="A">A. A Snickers bar
+    <input id="q9" type="radio" name=question9 value="B">B. An Almond Joy
+    <input id="q9" type="radio" name=question9 value="C">C. A doughnut
+    <input id="q9" type="radio" name=question9 value="D">D. A cookie
+    <br><br>
+    <p>10.) How much did The Soup Nazi charge George for bread?</p>
+    <input id="q10" type="radio" name=question10 value="A">A. 10 dollars
+    <input id="q10" type="radio" name=question10 value="B">B. 5 dollars
+    <input id="q10" type="radio" name=question10 value="C">C. 3 dollars
+    <input id="q10" type="radio" name=question10 value="D">D. 2 dollars
+
+    <script src="assets/javascript/app.js"></script>
+    </form>
+    
+    <br><br>
+
+    <div id="container">
+    <input id = "button" type="button" value="Sumbit" onClick="check();">
+    <div id="after_submit">
+      <p id="number_correct"></p>
+    </div>
+    
+    </div>
+  </body>
+
+</html>
