@@ -13,8 +13,10 @@
   <body>
 
   <h1>The Seinfeld Trivia Game</h1>
+  <!--Container div for Start button -->
   <div id="container"><button id="start">Start</button></div>
   <div id="show-number"></div>
+  <!--Hard Coded HTML quiz. Values will be used in Javascript file to check for correct answers-->
     <form id="quiz" name = quiz>
     <p>1.) What did Kramer's license plate say?</p>
     <input id="q1" type="radio" name=question1 value="A">A. Assman
@@ -80,7 +82,7 @@
     </form>
     
     <br><br>
-
+<!--Div container for the submit button -->
     <div id="container">
     <input id = "button" type="button" value="Sumbit" onClick="check();">
     <div id="after_submit">

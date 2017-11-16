@@ -1,11 +1,12 @@
       body {
             background: grey;
       }
-
+      /****** after_submit div will be initially hidden *******/
       #after_submit{
         visibility: hidden;
       }
-
+      
+      /******** centers all content ****/
       h1{
       	text-align: center;
       }
